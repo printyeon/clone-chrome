@@ -1,6 +1,6 @@
 const form = document.querySelector("#search");
 const searchInput = document.querySelector("#search input");
-const button = document.querySelector("#btn");
+const button = document.querySelector("#searchBtn");
 
 
 function onSearch(event){

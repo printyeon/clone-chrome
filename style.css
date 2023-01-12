@@ -1,3 +1,19 @@
+*{
+    text-align: center;
+}
+
+#search{
+    width: 30%;
+    height: 10%;
+
+    background: none;
+    text-decoration : underline;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid black;
+}
+
 .hidden{
     display: none;
 }
@@ -18,4 +34,28 @@ opacity:80%;
     outline: 0;
     border: 0;
     background: none;
+}
+
+#searchBtn{
+    outline: 0;
+    border: 0;
+}
+
+#clock{
+    font-size: 6vw;
+    color: #ffff;
+    margin: 0;
+}
+
+#todo-list{
+    list-style:none;
+}
+
+.greeting{
+    margin-top: 10%;
+}
+
+.greeting>h1{
+    margin: 0;
+    color: #ffff;
 }
